@@ -1,0 +1,38 @@
+name: iscrum
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/ubuntu/Ubuntu-Regular.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-Bold.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-BoldItalic.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-Italic.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-Light.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-LightItalic.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-Medium.ttf
+        - asset: assets/fonts/ubuntu/Ubuntu-MediumItalic.ttf
+  assets:
+    - assets/images/
+    - assets/animations/
